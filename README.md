@@ -1,4 +1,4 @@
-# UmbCheckout.Forms
+# UmbCheckout.Stripe.Forms
 Umbraco Forms Workflow for UmbCheckout
 
 This is the Umbraco Forms Workflow
