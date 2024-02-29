@@ -6,7 +6,11 @@ This is the Umbraco Forms Workflow
 
 ## Getting started
 
-Supports Umbraco V10+
+Only long term support (LTS) versions for Umbraco are officially supported.
+
+Community contributions for short term support versions (STS) are welcome.
+
+Currently it has been officially tested against Umbraco v10 and v13.
 
 ## Documentation
 
