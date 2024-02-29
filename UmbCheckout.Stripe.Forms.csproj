@@ -37,30 +37,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="LICENSE" />
-	  <None Remove="README.md" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Include="icon.png" />
-	  <EmbeddedResource Include="LICENSE" />
-	  <EmbeddedResource Include="README.md">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </EmbeddedResource>
+		<EmbeddedResource Include="..\..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</EmbeddedResource>
+		<EmbeddedResource Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\UmbCheckout.Core\UmbCheckout.Core.csproj" />
 	  <ProjectReference Include="..\UmbCheckout.Shared\UmbCheckout.Shared.csproj" />
 	  <ProjectReference Include="..\UmbCheckout.Stripe\UmbCheckout.Stripe.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Update="icon.png">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
 	</ItemGroup>
 
 </Project>
