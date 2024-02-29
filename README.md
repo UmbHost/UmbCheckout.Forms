@@ -1,11 +1,12 @@
 # UmbCheckout.Stripe.Forms
-Umbraco Forms Workflow for UmbCheckout
+
+UmbCheckout is an eCommerce solution for Umbraco which integrates with Stripe Checkout
 
 This is the Umbraco Forms Workflow
 
 ## Getting started
 
-Supports Umbraco V10+ (Currently only test with V10)
+Supports Umbraco V10+
 
 ## Documentation
 
@@ -22,6 +23,6 @@ This project is maintained by [UmbHost Limited](https://umbhost.net) and contrib
 
 ## License
 
-Copyright &copy; 2023 [UmbHost Limited](https://umbhost.net), and other contributors
+Copyright &copy; 2024 [UmbHost Limited](https://umbhost.net), and other contributors
 
 Licensed under the Apache License 2.0 license
